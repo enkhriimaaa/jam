@@ -34,7 +34,7 @@ p {
 .hit {
     display: flex;
     align-items: center;
-    margin: 1.99rem 0;
+    margin: 2rem 0;
     gap: 1rem;
 }
 
