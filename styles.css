@@ -1,6 +1,6 @@
 body {
-    background-color: #660808;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ff0065;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -10,9 +10,9 @@ h1 {
 }
 
 .alfa-slab-one-regular {
-  font-family: "Alfa Slab One", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h2 {
@@ -29,4 +29,40 @@ li {
 p {
     color: white;
     font-family: "Alfa Slab One", serif;
+}
+
+.hit {
+    display: flex;
+    align-items: center;
+    margin: 1.99rem 0;
+    gap: 1rem;
+}
+
+.hit.left {
+    flex-direction: row;
+}
+
+.hit.right {
+    flex-direction: row-reverse;
+}
+
+.hit img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hit p {
+    max-width: 400px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    width: 250px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
